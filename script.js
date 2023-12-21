@@ -18,8 +18,8 @@ function getComputersChoice() {
 
 
 // Function to playout one round of computer's random option and players option
-// , retrieved through prompt command as declared in Ln 23 below, print a WIN,
-// LOSE or TIE option in console and lastly update the respective scores accordingly;
+// , retrieved through prompt command as declared in Ln 23 below, print a WIN, LOSE
+// or TIE option in console and lastly update the respective scores accordingly;
 function playRound() {
     const playerschoice = prompt("ROCK, PAPER OR SCISSORS?   PICK ONE! : ");
     const computerschoice = getComputersChoice();
